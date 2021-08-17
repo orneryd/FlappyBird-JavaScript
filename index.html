@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flappy Bird using JS | by learnWD</title>
+    <title>Fappy Birb</title>
   </head>
   <body>
-   <h3>flappyBird by LearnWD</h3>
+   <h3>Fappy Birb</h3>
    
-   <canvas id="canvas" width="288" height="512"></canvas>
-   
-   <script src="flappyBird.js"></script>
+   <canvas id="canvas" width="320" height="512"></canvas>
+   <canvas id="birb" style="display: none;"></canvas>
+   <div id="images" style="display: none;">
+    <img src="/images/bird.png" id="bird" />
+    <img src="/images/bg.png" id="bg" />
+    <img src="/images/fg.png" id="fg" />
+    <img src="/images/pipeNorth.png" id="pipe-north" />
+    <img src="/images/pipeSouth.png" id="pipe-south" />
+   </div>
+   <script src="/utils.js"></script>
+   <script src="/flappyBird.js"></script>
   </body>
 </html>
